@@ -85,7 +85,7 @@ h4 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 12px;
   margin-bottom: 24px;
-  color: #fa9090;
+  color: #963333;
 }
 
 /* mudando as divs para ser cards */
@@ -98,12 +98,6 @@ h4 {
   transition:
     transform 0.2s ease,
     border-color 0.2s ease;
-}
-
-/* quanto passar o mouse por cima das "opções" tem uma animação de pulo */
-.cards:hover {
-  transform: translateY(-1px);
-  border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* estilo das etiquetas */
@@ -122,7 +116,7 @@ span {
 .containerUdemy-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 }
 
 /* remove a margem do span da Udemy (tive que pesquisar o porque )*/
@@ -132,7 +126,7 @@ span {
 
 /* logo da udemy */
 img {
-  height: 24px;
+  height: 20px;
   object-fit: contain;
 }
 

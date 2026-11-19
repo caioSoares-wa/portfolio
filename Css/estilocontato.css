@@ -28,7 +28,7 @@ body {
 .logo-linkedin {
   width: 30px;
   height: 30px;
-  border-radius: 20%;
+  border-radius: 10%;
   object-fit: cover;
 }
 
@@ -94,8 +94,8 @@ body {
   background-color: #15181f;
   padding: 28px;
   margin-top: 80px;
-  border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 
 /* estilo das divs dentro do formulario */
@@ -116,8 +116,8 @@ body {
 .grupo-formulario input,
 .grupo-formulario textarea {
   padding: 12px;
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
   background-color: #0e1116;
   color: #f5f5f5;
   font-family: inherit;
@@ -136,21 +136,20 @@ body {
 #btn-enviar {
   padding: 12px;
   border: none;
-  border-radius: 6px;
+  border-radius: 2px;
   background-color: #0e1116;
   color: #ffffff;
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
   transition:
-    background-color 0.2s ease,
+    background-color 0.1s ease,
     transform 0.1s ease;
 }
 
 /* se passar o mouse por cima muda de cor e tem uma animaçãozinha de pulo */
 #btn-enviar:hover {
   background-color: #24272c;
-  transform: translateY(-2px);
 }
 
 /*estilo do span de erro */

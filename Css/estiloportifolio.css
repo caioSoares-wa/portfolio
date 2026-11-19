@@ -17,6 +17,9 @@ body {
 
 .container {
   padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 /* posicionamento do header, cor etc... */
 .header {
@@ -47,7 +50,7 @@ body {
 
 /* se passar o mouse por cima muda a cor */
 .nav-menu a:hover {
-  color: #ff6b6b;
+  color: #963333;
 }
 
 /* --- card do projeto--- */
@@ -63,9 +66,6 @@ body {
   align-items: center;
   text-align: center;
   gap: 10px;
-  transition:
-    transform 0.7s ease,
-    border-color 0.7s ease;
 }
 
 /* animação de borda ao passar o mouse */

@@ -23,13 +23,18 @@
       </header>
 
       <!-- inicio do formulário -->
-      <form id="contato-formulario" novalidate>
-        <!-- entrada nome e span de erro -->
-        <div class="grupo-formulario">
-          <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" />
-          <span class="erro" id="erro-Nome"></span>
-        </div>
+      <form
+        id="contato-formulario"
+        novalidate
+        action="https://formsubmit.co/caio.guaraoriginal@gmail.com"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="_subject"
+          value="Nova mensagem pelo portfólio!"
+        />
+        <input type="hidden" name="_template" value="table" />
 
         <!-- entrana de email e span de erro -->
         <div class="grupo-formulario">
@@ -41,7 +46,7 @@
         <!-- entrada mensagem e span de erro -->
         <div class="grupo-formulario">
           <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+          <textarea id="mensagem" name="message" rows="5"></textarea>
           <span class="erro" id="erro-Mensagem"></span>
         </div>
 
